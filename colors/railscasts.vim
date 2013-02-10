@@ -120,10 +120,14 @@ hi String                    guifg=#A5C261 ctermfg=107
 hi Title                     guifg=#FFFFFF ctermfg=15
 
 "rubyConstant
-hi Type                      guifg=#DA4939 gui=NONE
+hi Type                      guifg=#DA4939 gui=NONE ctermfg=167 cterm=NONE
 
-hi DiffAdd                   guifg=#E6E1DC guibg=#144212
-hi DiffDelete                guifg=#E6E1DC guibg=#660000
+
+hi DiffAdd                   guifg=#A5C261 guibg=NONE ctermfg=34 ctermbg=NONE
+hi DiffDelete                guifg=#DA4939 guibg=NONE ctermfg=124 ctermbg=NONE
+hi diffFile                  guifg=#FFFFFF guibg=#6D9CBE ctermfg=15 ctermbg=26
+hi link diffAdded DiffAdd
+hi link diffRemoved DiffDelete
 
 hi link htmlTag              xmlTag
 hi link htmlTagName          xmlTagName
