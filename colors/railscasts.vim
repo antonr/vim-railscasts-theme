@@ -58,9 +58,9 @@ hi Directory                 guifg=#A5C261 gui=NONE
 " Popup Menu
 " ----------
 " normal item in popup
-hi Pmenu                     guifg=#F6F3E8 guibg=#444444 gui=NONE
+hi Pmenu                     guifg=#F6F3E8 guibg=#444444 gui=NONE ctermfg=white ctermbg=234
 " selected item in popup
-hi PmenuSel                  guifg=#000000 guibg=#A5C261 gui=NONE
+hi PmenuSel                  guifg=#000000 guibg=#A5C261 gui=NONE ctermfg=234 ctermbg=2
 " scrollbar in popup
 hi PMenuSbar                 guibg=#5A647E gui=NONE
 " thumb of the scrollbar in the popup
