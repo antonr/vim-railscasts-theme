@@ -35,9 +35,10 @@ hi LineNr                    guifg=#888888 ctermfg=242
 hi StatusLine                guifg=#E6E1DC guibg=#414243 cterm=NONE ctermfg=2 ctermbg=0
 hi StatusLineNC              guibg=#414243 gui=NONE cterm=NONE ctermfg=8 ctermbg=0
 hi User1                     cterm=reverse ctermfg=2 ctermbg=0
+hi User3                     cterm=reverse ctermfg=2 ctermbg=0
 hi User2                     ctermfg=2 ctermbg=0
 hi VertSplit                 guibg=#414243 gui=NONE guifg=#414243 cterm=NONE ctermfg=black ctermbg=black
-hi CursorLineNr              guifg=#bbbbbb ctermfg=248
+hi CursorLineNr              guifg=#bbbbbb ctermfg=248 cterm=NONE
 hi ColorColumn               guibg=#333435 ctermbg=235
 
 " Folds
